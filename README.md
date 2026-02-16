@@ -1,6 +1,6 @@
 # winnow
 
-A lightweight, non-destructive media culling tool for quickly sorting through images and videos.
+A lightweight, non-destructive media culling tool for quickly sorting through your Documents or Downloads folder.
 
 ## Features
 - **Tinder, but for your Downloads folder**: Swipe left to reject, swipe right to keep.
