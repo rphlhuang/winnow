@@ -38,7 +38,7 @@ If no directory is provided, it defaults to the current working directory.
 | Key | Action |
 | --- | --- |
 | **Right Arrow** | **Keep**: Skip to the next file |
-| **Left Arrow** or **D** | **Reject**: Move current file to `_rejected` folder |
+| **Left Arrow** | **Reject**: Move current file to `_rejected` folder |
 | **Esc** | **Exit**: Close the application |
 
 ## How it Works
@@ -49,4 +49,5 @@ If no directory is provided, it defaults to the current working directory.
 4. If a file with the same name already exists in `_rejected`, the rejected file is renamed with a unique suffix to prevent data loss.
 
 _Built with Gemini on Antigravity_
+
 _[rphlhuang.github.io](https://rphlhuang.github.io)_
