@@ -3,11 +3,12 @@
 A lightweight, non-destructive media culling tool for quickly sorting through images and videos.
 
 ## Features
-- **Visual Feedback**: Top bar indicators clearly show "Reject" and "Keep" actions.
+- **Tinder, but for your Downloads folder**: Swipe left to reject, swipe right to keep.
 - **Fast Navigation**: Preloads the next image for instant switching.
 - **Non-Destructive**: Rejected files are moved to a `_rejected` subdirectory instead of being deleted.
-- **Media Support**: Handles common image formats (JPG, PNG, GIF, WEBP), video formats (MP4, MKV, MOV), and PDFs.
-- **Minimalist UI**: Focuses entirely on the content with a responsive, aspect-ratio-preserving viewer.
+- **Media Support**: Handles images, videos, PDFs, CSVs, and text files.
+- **Generic Support**: Browses all file types and folders with a unique summary view.
+- **Custom Folders**: Use A/S/D/F to sort files into 4 color-coded, renameable folders.
 
 ## Requirements
 
@@ -37,9 +38,11 @@ If no directory is provided, it defaults to the current working directory.
 
 | Key | Action |
 | --- | --- |
-| **Right Arrow** | **Keep**: Skip to the next file |
 | **Left Arrow** | **Reject**: Move current file to `_rejected` folder |
-| **Esc** | **Exit**: Close the application |
+| **Right Arrow** | **Keep**: Skip to the next file |
+| **A / S / D / F** | **Sort**: File into respective folders (Renameable in UI) |
+| **Esc** | **Back/Exit**: Unfocus text inputs, or Exit if idle |
+| **Cmd + R** | **Reset**: Reset viewed log and review all files again |
 
 ## How it Works
 
